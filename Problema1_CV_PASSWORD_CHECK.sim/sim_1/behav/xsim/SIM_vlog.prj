@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/Password_CHECKER.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/counter_6b.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/demux.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/pass_check_fsm.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/ram_consonants.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/ram_vowels.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/reg_6b.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sources_1/new/vowel_checker_struct.v" \
+"../../../../Problema1_CV_PASSWORD_CHECK.srcs/sim_1/new/SIM.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

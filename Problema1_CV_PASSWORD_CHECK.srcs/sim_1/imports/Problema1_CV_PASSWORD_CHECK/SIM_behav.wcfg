@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SIM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SIM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="268.000 ns"></ZoomEndTime>
+      <Cursor1Time time="268.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="271"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/SIM/ck_t" type="logic">
+      <obj_property name="ElementShortName">ck_t</obj_property>
+      <obj_property name="ObjectShortName">ck_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/en_t" type="logic">
+      <obj_property name="ElementShortName">en_t</obj_property>
+      <obj_property name="ObjectShortName">en_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/reset_t" type="logic">
+      <obj_property name="ElementShortName">reset_t</obj_property>
+      <obj_property name="ObjectShortName">reset_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/data_in_t" type="array">
+      <obj_property name="ElementShortName">data_in_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/check_t" type="logic">
+      <obj_property name="ElementShortName">check_t</obj_property>
+      <obj_property name="ObjectShortName">check_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/out0_t" type="array">
+      <obj_property name="ElementShortName">out0_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/out1_t" type="array">
+      <obj_property name="ElementShortName">out1_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out1_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/data_readc_t" type="array">
+      <obj_property name="ElementShortName">data_readc_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_readc_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIM/data_readv_t" type="array">
+      <obj_property name="ElementShortName">data_readv_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_readv_t[7:0]</obj_property>
+   </wvobject>
+</wave_config>
